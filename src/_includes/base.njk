@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} | 233 Neko's Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
+  <title>{{ title }} | Ameyama Mio's Blog</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main>
+  <main id="main-content">
+    {% if show_intro is not defined or show_intro %}
+    {% include "intro.njk" %}
+    {% endif %}
+    {% if show_tag_nav %}
+    {% include "tag-nav.njk" %}
+    {% endif %}
     {% block content %}{{ content | safe }}{% endblock %}
   </main>
+  <div id="page-bottom"></div>
 </body>
 </html>

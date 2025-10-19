@@ -1,0 +1,15 @@
+{% set tagList = collections.tagList or [] %}
+{% if tagList | length %}
+<nav class="link-strip tag-switcher" id="tag-nav">
+  {% for tag in tagList %}
+    {% if tag != "Special" %}
+      <a
+        href="/tags/{{ tag }}/"
+        class="link-pill{% if currentTag is defined and currentTag == tag %} is-active{% endif %}"
+      >
+        {{ tag }} <span class="tag-count">({{ collections[tag] | default([]) | length }})</span>
+      </a>
+    {% endif %}
+  {% endfor %}
+</nav>
+{% endif %}

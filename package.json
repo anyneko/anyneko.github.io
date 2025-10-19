@@ -9,14 +9,17 @@
     "node": "25.0.0"
   },
   "scripts": {
-    "start": "npx @11ty/eleventy --serve", 
-    "dev": "npm run start",                 
-    "build": "npx @11ty/eleventy",         
-    "clean": "rm -rf output",              
-    "deploy": "npm run build && gh-pages -d output"  
+    "start": "npx @11ty/eleventy --serve",
+    "dev": "npm run start",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf output",
+    "deploy": "npm run build && gh-pages -d output"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "gh-pages": "^6.0.0"
+  },
+  "dependencies": {
+    "lxgw-wenkai-screen-web": "^1.521.0"
   }
 }

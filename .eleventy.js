@@ -27,6 +27,27 @@ export default function(eleventyConfig) {
     return date.toISOString();
   });
 
+  eleventyConfig.addCollection("tagList", (collectionApi) => {
+    const reserved = new Set(["all", "post", "posts"]);
+    const tags = new Set();
+
+    collectionApi.getAll().forEach((item) => {
+      (item.data.tags || []).forEach((tag) => {
+        if (!reserved.has(tag)) {
+          tags.add(tag);
+        }
+      });
+    });
+
+    return Array.from(tags).sort((a, b) =>
+      a.localeCompare(b, "zh-Hans", { sensitivity: "base" }),
+    );
+  });
+
+  
+
+
+
   return {
     dir: {
       input: "src",

@@ -1,8 +1,9 @@
 ---
 title: 你好，世界！
 date: 2025-10-20
-tags: [post, 日常, 起点]
+tags: [post, 碎碎念, 起点]
 layout: post.njk
+show_intro: true
 ---
 
 这是你的第一篇 11ty 博客文章。
@@ -10,3 +11,4 @@ layout: post.njk
 欢迎来到一个干净、纯静态、没有花哨动画的阅读世界。
 
 未来的你一定会感谢现在的这个决定。
+

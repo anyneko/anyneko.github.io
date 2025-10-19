@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: 标签
+permalink: tags/
+show_intro: true
+show_tag_nav: true
+---
+
+{% if redirectUrl %}
+  <script id="tag-redirect" data-target="{{ redirectUrl }}">
+    const target = document.currentScript?.dataset?.target;
+    if (target) {
+      window.location.replace(target);
+    }
+  </script>
+  <p><a href="{{ redirectUrl }}">{{ redirectUrl }}</a></p>
+  <noscript>
+    <p>浏览器不开心吗？但是你一定要开心哦...</p>
+  </noscript>
+{% else %}
+  <p>妳不应该看到这段文字......</p>
+{% endif %}
