@@ -43,11 +43,7 @@ export default function(eleventyConfig) {
       a.localeCompare(b, "zh-Hans", { sensitivity: "base" }),
     );
   });
-
   
-
-
-
   return {
     dir: {
       input: "src",
