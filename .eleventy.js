@@ -60,7 +60,7 @@ export default function(eleventyConfig) {
       subtitle: "死掉了就太可惜啦。陪妳多走一程，好不好？",
       base: "https://aneko.moe/",
       author: {
-        name: "eko",
+        name: "anyneko",
         email: "", // Optional
       }
     }
