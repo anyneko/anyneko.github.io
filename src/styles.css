@@ -113,6 +113,7 @@ h3 {
   display: inline-flex;
   align-items: baseline;
   gap: 0.35rem;
+  font-size: 1.2rem;
 }
 
 .link-pill:hover {
@@ -146,7 +147,7 @@ hr {
 }
 
 .meta {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   color: var(--muted-strong);
 }
 

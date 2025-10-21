@@ -2,7 +2,7 @@
 layout: post.njk
 title: "    "
 date: 2006-09-02
-tags: [archive]
+tags: [Archive]
 show_intro: false
 show_footer: false
 ---
