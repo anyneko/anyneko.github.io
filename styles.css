@@ -59,8 +59,8 @@ body {
   max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
-  font-family: "LXGW WenKai TC", "Noto Serif SC", "Source Han Serif", serif;
-  font-weight: 300;
+  font-family: "LXGW WenKai Light", "Noto Serif SC", "Source Han Serif", serif;
+  font-weight: normal;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -113,6 +113,7 @@ h3 {
   display: inline-flex;
   align-items: baseline;
   gap: 0.35rem;
+  font-size: 1.2rem;
 }
 
 .link-pill:hover {
@@ -146,7 +147,7 @@ hr {
 }
 
 .meta {
-  font-size: 0.9em;
+  font-size: 1.0rem;
   color: var(--muted-strong);
 }
 
@@ -187,4 +188,23 @@ hr {
   color: var(--muted-strong);
   font-size: 0.9em;
   white-space: nowrap;
+}
+.post-content pre {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.post-content code {
+  font-family: "JetBrains Mono", "Fira Code", "Menlo", "Consolas", monospace;
+  font-size: 0.95em;
+}
+
+.post-content pre code {
+  display: block;
+  white-space: inherit;
 }
