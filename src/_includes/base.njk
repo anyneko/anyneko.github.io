@@ -4,10 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | Ameyama Mio's Blog</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="/styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css" />
   <link rel="stylesheet" href="/styles.css">
   <script>
     (function () {
@@ -35,7 +32,9 @@
     {% include "tag-nav.njk" %}
     {% endif %}
     {% block content %}{{ content | safe }}{% endblock %}
+    {% if show_footer is not defined or show_footer %}
     {% include "footer.njk" %}
+    {% endif %}
   </main>
   <div id="page-bottom"></div>
 </body>
