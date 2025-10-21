@@ -17,7 +17,9 @@ show_intro: true
         {{ post.templateContent | truncate(150, true, "...") | safe }}
       </p>
     </article>
+    {% if not loop.last %}
     <hr>
+    {% endif %}
   {% endfor %}
 </section>
 
