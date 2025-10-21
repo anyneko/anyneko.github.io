@@ -1,3 +1,6 @@
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
+export default function(eleventyConfig) {
 import { execSync } from "node:child_process";
 
 const buildTime = new Date().toISOString();
@@ -63,6 +66,25 @@ export default function (eleventyConfig) {
     );
   });
 
+  // RSS Feed Plugin
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom", // or "rss", "json"
+    outputPath: "/feed.xml",
+    collection: {
+      name: "post", // iterate over `collections.post`
+      limit: 0,     // 0 means no limit
+    },
+    metadata: {
+      language: "zh",
+      title: "Ameyama Mio's Blog?",
+      subtitle: "死掉了就太可惜啦。陪妳多走一程，好不好？",
+      base: "https://aneko.moe/",
+      author: {
+        name: "anyneko",
+        email: "ohayo@aneko.moe", // Optional
+      }
+    }
+  });
   eleventyConfig.addGlobalData("buildTime", buildTime);
   eleventyConfig.addGlobalData("commitHash", commitHash);
 
