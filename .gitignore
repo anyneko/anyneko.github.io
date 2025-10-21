@@ -1,2 +1,4 @@
 output/
 node_modules/
+src/assets/fonts/**/*.woff2
+src/assets/fonts/lxgw.css

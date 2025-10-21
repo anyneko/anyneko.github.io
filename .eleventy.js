@@ -9,8 +9,9 @@ try {
   console.warn("[Eleventy] Unable to read git commit hash:", error);
 }
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles.css");
+  eleventyConfig.addPassthroughCopy("src/assets");
 
   eleventyConfig.addFilter("date", (value, format = "yyyy-MM-dd") => {
     if (!value) return "";
@@ -64,12 +65,6 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addGlobalData("buildTime", buildTime);
   eleventyConfig.addGlobalData("commitHash", commitHash);
-
-  eleventyConfig.addPassthroughCopy({
-    "node_modules/@callmebill/lxgw-wenkai-web": "fonts/lxgw"
-  });
-
-
 
   return {
     dir: {
