@@ -65,6 +65,11 @@ export default function(eleventyConfig) {
   eleventyConfig.addGlobalData("buildTime", buildTime);
   eleventyConfig.addGlobalData("commitHash", commitHash);
 
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/@callmebill/lxgw-wenkai-web": "fonts/lxgw"
+  });
+
+
 
   return {
     dir: {
