@@ -11,6 +11,9 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "dev": "npm run start",
+    "fonts": "node scripts/generate-font-css.mjs",
+    "prestart": "npm run fonts",
+    "prebuild": "npm run fonts",
     "build": "npx @11ty/eleventy",
     "clean": "rm -rf output",
     "deploy": "npm run build && gh-pages -d output"
@@ -18,9 +21,10 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "globby": "^15.0.0"
   },
   "dependencies": {
-    "lxgw-wenkai-screen-web": "^1.521.0"
+    "@callmebill/lxgw-wenkai-web": "^1.521.0"
   }
 }

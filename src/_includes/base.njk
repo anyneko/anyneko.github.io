@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css" />
   <title>{{ title }} | Ameyama Mio's Blog</title>
+  <link rel="stylesheet" href="/assets/fonts/lxgw.css">
   <link rel="stylesheet" href="/styles.css">
   <link rel="alternate" href="/feed.xml" title="Ameyama Mio's Blog RSS Feed" type="application/atom+xml">
   <script>
@@ -33,6 +33,9 @@
     {% include "tag-nav.njk" %}
     {% endif %}
     {% block content %}{{ content | safe }}{% endblock %}
+    {% if show_footer is not defined or show_footer %}
+    {% include "footer.njk" %}
+    {% endif %}
   </main>
   <div id="page-bottom"></div>
 </body>

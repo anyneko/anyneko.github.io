@@ -1,13 +1,42 @@
 ﻿<section class="intro">
-  <h1>Ameyama Mio's Blog</h1>
-  <p>死掉了就太可惜啦。陪妳多走一程，好不好？</p>
+  <h1>Ameyama Mio's Blog?</h1>
+  {% set firstEntry = introQuotes | first %}
+  {% if firstEntry and firstEntry.text %}
+    {% set defaultIntro = firstEntry.text %}
+  {% else %}
+    {% set defaultIntro = firstEntry or "按理来说这句话妳也不该看到（歪头）" %}
+  {% endif %}
+  <p id="intro-tagline">{{ defaultIntro }}</p>
   <nav class="link-strip intro-links">
     <a class="link-pill" href="/">首页</a>
     <a class="link-pill" href="/tags/">标签</a>
     <a class="link-pill" href="/friends/">朋友们</a>
     <a class="link-pill" href="/about/">关于我</a>
   </nav>
+  <script>
+    (function () {
+      var entries = {{ introQuotes | dump | safe }};
+      if (!Array.isArray(entries) || entries.length === 0) return;
+
+      var target = document.getElementById("intro-tagline");
+      if (!target) return;
+
+      var pick = entries[Math.floor(Math.random() * entries.length)] || "";
+      var text = "";
+      if (pick && typeof pick === "object" && typeof pick.text === "string") {
+        text = pick.text;
+      } else if (typeof pick === "string") {
+        text = pick;
+      }
+      text = (text || "").trim();
+      if (!text) return;
+
+      if (Math.random() < 0.5) {
+        text = text.replace(/你/g, "妳");
+      }
+
+      target.textContent = text;
+    })();
+  </script>
 </section>
 <hr>
-
-

@@ -34,7 +34,7 @@ html[data-theme="light"] {
   --heading: #111111;
   --link: #111111;
   --link-active: #222222;
-  --muted: #555555;
+  --muted: #443F30;
   --muted-strong: #777777;
   --muted-soft: #999999;
   --divider: rgba(0, 0, 0, 0.1);
@@ -59,7 +59,7 @@ body {
   max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
-  font-family: "LXGW WenKai Light", "Noto Serif SC", "Source Han Serif", serif;
+  font-family: "LXGW WenKai", "Noto Serif SC", "Source Han Serif", serif;
   font-weight: 300;
   background-color: var(--bg);
   color: var(--text);
@@ -75,11 +75,25 @@ a:hover {
   text-decoration: underline;
 }
 
-h1,
-h2 {
-  font-weight: 600;
+h1 {
+  font-weight: 500;
   margin-top: 2rem;
   color: var(--heading);
+  font-size: clamp(2.2rem, 2.5vw + 1.4rem, 2.75rem);
+}
+
+h2 {
+  font-weight: 500;
+  margin-top: 2rem;
+  color: var(--heading);
+  font-size: clamp(1.6rem, 1.8vw + 1rem, 2.1rem);
+}
+
+h3 {
+  font-weight: 500;
+  margin-top: 1.5rem;
+  color: var(--heading);
+  font-size: clamp(1.3rem, 1.2vw + 0.9rem, 1.7rem);
 }
 
 .intro h1 {
@@ -95,10 +109,11 @@ h2 {
 }
 
 .link-pill {
-  color: var(--muted);
+  color: var(--link);
   display: inline-flex;
   align-items: baseline;
   gap: 0.35rem;
+  font-size: 1.2rem;
 }
 
 .link-pill:hover {
@@ -106,7 +121,7 @@ h2 {
 }
 
 .link-pill.is-active {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--link-active);
 }
 
@@ -132,7 +147,7 @@ hr {
 }
 
 .meta {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: var(--muted-strong);
 }
 
@@ -173,4 +188,23 @@ hr {
   color: var(--muted-strong);
   font-size: 0.9em;
   white-space: nowrap;
+}
+.post-content pre {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.post-content code {
+  font-family: "JetBrains Mono", "Fira Code", "Menlo", "Consolas", monospace;
+  font-size: 0.95em;
+}
+
+.post-content pre code {
+  display: block;
+  white-space: inherit;
 }

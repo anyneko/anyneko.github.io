@@ -2,8 +2,9 @@ name: Build and Deploy Eleventy
 
 on:
   push:
-    branches: [ "main" ]  # 每次推送到 main 时自动构建
-  workflow_dispatch:      # 可手动触发
+    branches:
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,9 +23,10 @@ jobs:
           node-version: 25.0.0
 
       - name: Install dependencies
-        run: npm i -g @11ty/eleventy && npm ci
+        run: npm ci
+
       - name: Build site
-        run: npx @11ty/eleventy
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
