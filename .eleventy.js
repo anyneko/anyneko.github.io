@@ -56,12 +56,12 @@ export default function(eleventyConfig) {
     },
     metadata: {
       language: "zh",
-      title: "Ameyama Mio's Blog",
+      title: "Ameyama Mio's Blog?",
       subtitle: "死掉了就太可惜啦。陪妳多走一程，好不好？",
       base: "https://aneko.moe/",
       author: {
         name: "anyneko",
-        email: "", // Optional
+        email: "ohayo@aneko.moe", // Optional
       }
     }
   });
