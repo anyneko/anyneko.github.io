@@ -38,6 +38,13 @@ export default function(eleventyConfig) {
     return result;
   });
 
+  eleventyConfig.addFilter("excerpt", (content, marker = "<!--more-->") => {
+    if (!content) return "";
+    const markerIndex = content.indexOf(marker);
+    const raw = markerIndex === -1 ? content : content.slice(0, markerIndex);
+    return raw.trim();
+  });
+
   eleventyConfig.addCollection("tagList", (collectionApi) => {
     const reserved = new Set(["all", "post", "posts"]);
     const tags = new Set();
@@ -57,7 +64,8 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addGlobalData("buildTime", buildTime);
   eleventyConfig.addGlobalData("commitHash", commitHash);
-  
+
+
   return {
     dir: {
       input: "src",

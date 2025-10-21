@@ -59,8 +59,8 @@ body {
   max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
-  font-family: "LXGW WenKai Screen", "Noto Serif SC", "Source Han Serif", serif;
-  font-weight: 300;
+  font-family: "LXGW WenKai Light", "Noto Serif SC", "Source Han Serif", serif;
+  font-weight: normal;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
