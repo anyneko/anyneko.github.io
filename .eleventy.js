@@ -1,6 +1,4 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
-
-export default function(eleventyConfig) {
 import { execSync } from "node:child_process";
 
 const buildTime = new Date().toISOString();
@@ -32,6 +30,7 @@ export default function (eleventyConfig) {
       fff: String(date.getMilliseconds()).padStart(3, "0"),
     };
 
+    // Replace longer tokens first to avoid partial matches.
     const orderedTokens = Object.keys(tokens).sort((a, b) => b.length - a.length);
 
     let result = format;
@@ -66,13 +65,12 @@ export default function (eleventyConfig) {
     );
   });
 
-  // RSS Feed Plugin
   eleventyConfig.addPlugin(feedPlugin, {
-    type: "atom", // or "rss", "json"
+    type: "atom",
     outputPath: "/feed.xml",
     collection: {
-      name: "post", // iterate over `collections.post`
-      limit: 0,     // 0 means no limit
+      name: "post",
+      limit: 0,
     },
     metadata: {
       language: "zh",
@@ -81,10 +79,11 @@ export default function (eleventyConfig) {
       base: "https://aneko.moe/",
       author: {
         name: "anyneko",
-        email: "ohayo@aneko.moe", // Optional
-      }
-    }
+        email: "ohayo@aneko.moe",
+      },
+    },
   });
+
   eleventyConfig.addGlobalData("buildTime", buildTime);
   eleventyConfig.addGlobalData("commitHash", commitHash);
 
