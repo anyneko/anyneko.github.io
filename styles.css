@@ -59,8 +59,8 @@ body {
   max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
-  font-family: "LXGW WenKai Light", "Noto Serif SC", "Source Han Serif", serif;
-  font-weight: normal;
+  font-family: "LXGW WenKai", "Noto Serif SC", "Source Han Serif", serif;
+  font-weight: 300;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -76,21 +76,21 @@ a:hover {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 2rem;
   color: var(--heading);
   font-size: clamp(2.2rem, 2.5vw + 1.4rem, 2.75rem);
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 2rem;
   color: var(--heading);
   font-size: clamp(1.6rem, 1.8vw + 1rem, 2.1rem);
 }
 
 h3 {
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1.5rem;
   color: var(--heading);
   font-size: clamp(1.3rem, 1.2vw + 0.9rem, 1.7rem);
@@ -113,7 +113,6 @@ h3 {
   display: inline-flex;
   align-items: baseline;
   gap: 0.35rem;
-  font-size: 1.2rem;
 }
 
 .link-pill:hover {
@@ -121,7 +120,7 @@ h3 {
 }
 
 .link-pill.is-active {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--link-active);
 }
 
