@@ -109,7 +109,7 @@ h3 {
 }
 
 .link-pill {
-  color: var(--muted);
+  color: var(--link);
   display: inline-flex;
   align-items: baseline;
   gap: 0.35rem;
