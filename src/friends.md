@@ -7,8 +7,8 @@ layout: post.njk
 ### [Rikkaの小小窝](https://rikka.im/)
 * 早上好哦(つω`*)～☆
 
-### [0x7C00]()
-* 
+### [0x7C00](https://aki.cat)
+* 拜托，是叫 Ameyama Aki 啦，不是别的啦~ 雨山秋也可以啦~
 
 ### [橄榄菜 (@hatateaya)](https://ganlanc.at)
 * 一只猫！
