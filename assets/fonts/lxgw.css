@@ -3,6 +3,15 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
+  src: url("/assets/fonts/lxgw/lxgwwenkai-light-231.woff2") format("woff2");
+  unicode-range: U+361,U+20a7-20c1,U+20dd-20de,U+2101,U+2103,U+2106,U+2109-210a,U+210e-210f,U+2113,U+2117,U+211e,U+2120,U+2122,U+2126-2127,U+2129-212b,U+212e,U+2132,U+2135,U+2141-2144,U+214b,U+214d-214e,U+2150-218b,U+2190-2199,U+21b6-21b9,U+21c4-21c6,U+21cb-21d0,U+21d2,U+21d4,U+21e6-21ea,U+21f5,U+2200-220d,U+220f,U+2211-2213,U+2215-2216,U+2219-2220,U+2223-2230,U+2234-2237,U+223c-223e,U+2242-2243,U+2245,U+2248,U+224b-224c,U+2251-2253,U+225c,U+2260-2262,U+2264-226b,U+226e-226f,U+2272-2273,U+2276-2277,U+2282-228b,U+2295-2299,U+229c-229e,U+22a0,U+22a2-22a5,U+22bf-22c5,U+22da-22db,U+22ee-22f1,U+2300,U+2302-2303,U+2305-2307,U+2312,U+2318,U+2325-2326,U+2329-232c,U+2373-237b,U+2387,U+238b,U+2393,U+239b-23ad,U+23b0-23b1,U+23be-23cc,U+23ce,U+23da-23db,U+23e3,U+23e8,U+23fb-23fe,U+2400-2426,U+2460-25ab,U+25b1-25b3,U+25b6-25b7,U+25bc-25bd,U+25c0-25c1,U+25c6-25c7,U+25c9-25cc,U+25ce-25d3,U+25e2-25e6,U+25ef,U+25fb-25fc,U+2600-2603,U+2605-2606,U+2609,U+260e-2612,U+2616-2617,U+261c-261f,U+262f-2637,U+2640-2642,U+2660-266f,U+2672,U+16fe2-16fe3,U+16ff2-16ff3;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-light-230.woff2") format("woff2");
   unicode-range: U+281-28b,U+28d-2b0,U+2b2-2b3,U+2b7-2be,U+2c0-2c1,U+2c6-2d1,U+2d8-2de,U+2e0-2ec,U+2ef-2f0,U+2f3,U+2f7,U+303,U+305,U+307-309,U+30f,U+311,U+316-320,U+323-32a,U+32c-332,U+334-336,U+338-33d,U+340-341,U+1d00,U+1d04-1d08,U+1d0a-1d10,U+1d14-1d15,U+1d18-1d1c,U+1d20-1d23,U+1d25,U+1d39-1d3a,U+1d3c,U+1d3e,U+1e00-1e3d,U+1e40-1e71,U+1e74-1e8f,U+1e92-1eff,U+2000-200b,U+2010-2016,U+2018-2022,U+2025-2027,U+2030-2037,U+2039-203f,U+2042,U+2044,U+2047-2049,U+2051-2052,U+205a,U+205d,U+2070-2071,U+2074-208e,U+2090-209c,U+20a0-20a6,U+213b,U+3004,U+3386,U+33c8,U+fa4a-fa6d,U+fa7f,U+fad4,U+fb00-fb04,U+fe32,U+fe45-fe52,U+fe54-fe66,U+fe68-fe6b,U+ff01-ff0e,U+ff10-ff11,U+ff14-ff26,U+ff29-ff2a,U+ff2c-ff2d,U+ff2f,U+ff31,U+ff33-ff40,U+ff44,U+ff46,U+ff4a,U+ff4c,U+ff51-ff52,U+ff54-ff59,U+ff5b-ffbe,U+ffc2-ffc7,U+ffca-ffcf,U+ffd2-ffd7,U+ffda-ffdc,U+ffe0-ffe6,U+ffe8-ffee,U+fffc-fffd,U+11fb0;
 }
@@ -415,6 +424,15 @@
 @font-face {
   font-family: "LXGW WenKai";
   font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/fonts/lxgw/lxgwwenkai-light-1.woff2") format("woff2");
+  unicode-range: U+370-377,U+37a-37f,U+384-38a,U+38c,U+38e-3a1,U+3a3-3e1,U+3f0-3ff,U+1f00-1f15,U+1f18-1f1d,U+1f20-1f45,U+1f48-1f4d,U+1f50-1f57,U+1f59,U+1f5b,U+1f5d,U+1f5f-1f7d,U+1f80-1fb4,U+1fb6-1fc4,U+1fc6-1fd3,U+1fd6-1fdb,U+1fdd-1fef,U+1ff2-1ff4,U+1ff6-1ffe;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-regular-210.woff2") format("woff2");
@@ -428,6 +446,15 @@
   font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-regular-209.woff2") format("woff2");
   unicode-range: U+280-28b,U+28d-28f,U+203c,U+2049,U+213b,U+3004,U+3386,U+33c8,U+f9c8-fa6d,U+fa7f,U+fad4,U+fb00-fb04,U+fe32,U+fe45-fe52,U+fe54-fe66,U+fe68-fe6b,U+ff01-ff0e,U+ff10-ff11,U+ff14-ff26,U+ff29-ff2a,U+ff2c-ff2d,U+ff2f,U+ff31,U+ff33-ff40,U+ff44,U+ff46,U+ff4a,U+ff4c,U+ff51-ff52,U+ff54-ff59,U+ff5b-ffbe,U+ffc2-ffc7,U+ffca-ffcf,U+ffd2-ffd7,U+ffda-ffdc,U+ffe0-ffe3;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/lxgw/lxgwwenkai-regular-211.woff2") format("woff2");
+  unicode-range: U+24b4-25ab,U+25b1-25b3,U+25b6-25b7,U+25bc-25bd,U+25c0-25c1,U+25c6-25c7,U+25c9-25cc,U+25ce-25d3,U+25e2-25e6,U+25ef,U+25fb-25fc,U+2600-2603,U+2605-2606,U+2609,U+260e-2612,U+2616-2617,U+261c-261f,U+262f-2637,U+2640-2642,U+2660-266f,U+2672-267d,U+2686-268f,U+26a0,U+26aa-26ab,U+26bd-26be,U+26cb,U+26e4-26e7,U+2702,U+16fe2-16fe3,U+16ff2-16ff3;
 }
 
 @font-face {
@@ -820,6 +847,24 @@
 @font-face {
   font-family: "LXGW WenKai";
   font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/lxgw/lxgwwenkai-regular-1.woff2") format("woff2");
+  unicode-range: U+370-377,U+37a-37f,U+384-38a,U+38c,U+38e-3a1,U+3a3-3e1,U+3f0-3ff,U+1f00-1f15,U+1f18-1f1d,U+1f20-1f45,U+1f48-1f4d,U+1f50-1f57,U+1f59,U+1f5b,U+1f5d,U+1f5f-1f7d,U+1f80-1fb4,U+1fb6-1fc4,U+1fc6-1fd3,U+1fd6-1fdb,U+1fdd-1fef,U+1ff2-1ff4,U+1ff6-1ffe;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/lxgw/lxgwwenkai-medium-213.woff2") format("woff2");
+  unicode-range: U+340-341,U+361,U+2080-208e,U+2090-209c,U+20a0-20c1,U+20dd-20de,U+2101,U+2103,U+2106,U+2109-210a,U+210e-210f,U+2113,U+2117,U+211e,U+2120,U+2122,U+2126-2127,U+2129-212b,U+212e,U+2132,U+2135,U+2141-2144,U+214b,U+214d-214e,U+2150-218b,U+2190-2199,U+21b6-21b9,U+21c4-21c6,U+21cb-21d0,U+21d2,U+21d4,U+21e6-21ea,U+21f5,U+2200-220d,U+220f,U+2211-2213,U+2215-2216,U+2219-2220,U+2223-2230,U+2234-2237,U+223c-223e,U+2242-2243,U+2245,U+2248,U+224b-224c,U+2251-2253,U+225c,U+2260-2262,U+2264-226b,U+226e-226f,U+2272-2273,U+2276-2277,U+2282-228b,U+2295-2299,U+229c-229e,U+22a0,U+22a2-22a5,U+22bf-22c5,U+22da-22db,U+22ee-22f1,U+2300,U+2302-2303,U+2305-2307,U+2312,U+2318,U+2325-2326,U+2329-232c,U+2373-237b,U+2387,U+238b,U+2393,U+239b-23ad,U+23b0-23b1,U+23be-23cc,U+23ce,U+23da-23db,U+23e3,U+23e8,U+23fb-23fe,U+2400-2426,U+2460-25ab,U+25b1-25b3,U+25b6-25b7,U+25bc-25bd,U+25c0-25c1,U+25c6-25c7,U+25c9-25cc,U+25ce-25d3,U+25e2-25e6,U+25ef,U+25fb-25fc,U+2600-2603,U+2605-2606,U+2609,U+260e-2612,U+2616-2617,U+261c-261f,U+262f-2637,U+2640-2642,U+2660-266f,U+2672-267d,U+2686-268f,U+26a0,U+26aa-26ab,U+26bd-26be,U+26cb,U+26e4-26e7,U+2702,U+16fe2-16fe3,U+16ff2-16ff3;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-medium-212.woff2") format("woff2");
@@ -1202,4 +1247,13 @@
   font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-medium-3.woff2") format("woff2");
   unicode-range: U+2e3a,U+3001-3002,U+3008-3011,U+3014-3017,U+4e00,U+4e09-4e0b,U+4e0d,U+4e16,U+4e2d,U+4e3b,U+4e4b,U+4e5d,U+4e5f,U+4e8b-4e8c,U+4e94,U+4e9b,U+4ea4,U+4eac,U+4eba,U+4eca,U+4ed6,U+4ee3,U+4ee5,U+4ef6,U+4efb,U+4efd,U+4f01,U+4f46,U+4f4d,U+4f4f,U+4f55,U+4f5c,U+4f7f,U+4f9b,U+4f9d,U+4fdd,U+4fe1,U+503c,U+505a,U+5143,U+5148-5149,U+5165,U+5168,U+516b-516c,U+5171,U+5176-5177,U+518d,U+5206,U+5217,U+5229,U+5230,U+524d,U+526f,U+529b,U+529f-52a0,U+5305,U+5316-5317,U+5341,U+5357,U+5382,U+539f,U+53bb,U+53c8,U+53ca,U+53cd,U+53d6-53d7,U+53e3,U+53ef-53f0,U+53f2,U+53f8,U+5404,U+540d,U+5411,U+544a,U+5468,U+547d,U+548c,U+54c1,U+552e,U+5546,U+56db,U+56e0,U+571f,U+5728,U+5730,U+5747,U+578b,U+57ce,U+57fa,U+5883,U+589e,U+58eb,U+5916,U+591a,U+5927,U+5929,U+592e,U+5931,U+5973,U+5979,U+597d,U+5982,U+59cb,U+59d4,U+5b50,U+5b58,U+5b89,U+5b8c,U+5b9a,U+5ba2,U+5bcc,U+5c0f,U+5c11,U+5c31,U+5c55,U+5c71,U+5dde,U+5de5,U+5df1-5df2,U+5e02,U+5e38,U+5e73-5e74,U+5e9c,U+5ea6,U+5efa,U+5f0f,U+5f15,U+5f62,U+5f71,U+5f88,U+5f8b,U+5f97,U+5fb7,U+5fc3,U+5fc5,U+5feb,U+601d,U+6027,U+606f,U+60c5,U+60f3,U+610f,U+611f,U+6210-6211,U+6216,U+623f-6240,U+624b,U+6253,U+6279,U+6280,U+628a,U+6293,U+6295,U+62c9,U+6301,U+6307,U+6309,U+63a5,U+63a8,U+63d0,U+652f,U+6536,U+6539,U+653e-653f,U+6548,U+6574,U+6587,U+6599,U+65af-65b0,U+65b9,U+65bd,U+65cf,U+65e5,U+660e,U+6613,U+662f,U+66f4,U+6700,U+6708-6709,U+670d,U+671b,U+671f,U+672c,U+674e,U+6751,U+6797,U+6821,U+6839,U+683c,U+6848,U+6a21,U+6b21,U+6b3e,U+6b63-6b65,U+6bb5,U+6bcf,U+6bd4,U+6c11,U+6c34,U+6c42,U+6c5f,U+6cb3,U+6cb9,U+6cbb,U+6cd5,U+6d3b,U+6d41,U+6d77,U+6d88,U+6df1,U+6e05,U+6e2f,U+6e90,U+7136,U+7167,U+7269,U+7279,U+7387,U+738b,U+7406,U+751f,U+7528,U+7531,U+754c,U+767e,U+7684,U+76ca,U+76ee,U+76f4,U+76f8,U+770b,U+77e5,U+77f3,U+7814,U+793a,U+793e,U+795e,U+79d1,U+7a0b,U+7a76,U+7acb,U+7b2c,U+7b49,U+7b56,U+7ba1,U+7c73,U+7cbe,U+7cfb,U+7f8e,U+8001,U+8003,U+8005,U+800c,U+80a1,U+80b2,U+80fd,U+81ea,U+81f3,U+8272,U+82b1,U+884c,U+88ab,U+897f,U+8981,U+89e3,U+8c61,U+8d70,U+8d77,U+8d8a,U+8db3,U+8def,U+8eab,U+8fd1,U+901a,U+901f-9020,U+9053,U+90a3,U+90e8,U+90fd,U+914d,U+91c7,U+91cd,U+91cf,U+91d1,U+9632,U+9650,U+9662,U+96c6,U+9700,U+9752,U+975e,U+9762,U+9769,U+98df,U+9996,U+9ad8,U+fe10-fe19,U+fe30-fe31,U+fe33-fe44;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/lxgw/lxgwwenkai-medium-1.woff2") format("woff2");
+  unicode-range: U+370-377,U+37a-37f,U+384-38a,U+38c,U+38e-3a1,U+3a3-3e1,U+3f0-3ff,U+1f00-1f15,U+1f18-1f1d,U+1f20-1f45,U+1f48-1f4d,U+1f50-1f57,U+1f59,U+1f5b,U+1f5d,U+1f5f-1f7d,U+1f80-1fb4,U+1fb6-1fc4,U+1fc6-1fd3,U+1fd6-1fdb,U+1fdd-1fef,U+1ff2-1ff4,U+1ff6-1ffe;
 }
