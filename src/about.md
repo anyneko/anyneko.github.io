@@ -31,3 +31,5 @@ show_intro: true
 ### One more thing
 > In case I can't meet you again,  
 > Good morning, good afternoon, and good night.  
+
+死掉了就太可惜啦。陪妳多走一程，好不好？
