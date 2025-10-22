@@ -8,10 +8,15 @@ layout: post.njk
 * 早上好哦(つω`*)～☆
 
 ### [0x7C00](https://aki.cat)
-* 拜托，是叫 Ameyama Aki 啦，不是别的啦~ 雨山秋也可以啦~
+* 拜托，是叫 Ameyama Aki 啦，不是别的啦~
+* 不过雨山秋也可以啦~
 
-### [橄榄菜 (@hatateaya)](https://ganlanc.at)
+### [aisuneko "icecat"](https://aisuneko.moe)
+* "flow just like liquid ice"
+
+### [橄榄菜](https://ganlanc.at)
 * 一只猫！
+* [hatateaya@Github](https://github.com/hatateaya)
 
 ### [Izumino's Blog](https://blog.izumino.cat)
 * 这里是泉野
