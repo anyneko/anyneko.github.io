@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: 建站彩蛋（和试验场）
-tags: [Archive]
+title: 实验场（和建站彩蛋）
+tags: [Special]
 description: 我不做搜索引擎优化啦！
 ---
 
@@ -39,7 +39,26 @@ eda5cd
 c479a2
 ```
 
+**bold**  
+*italic*  
+***bold italic***  
+~~strikethrough~~  
 
+- [x] A  
+- [ ] B  
+
+* C
+  * D
+  * E
+    * F
+    * G
+      * H
+      * I
+        * J
+        * K
+          * L
+          * M
+            * N
 
 夜空中最亮的星 能否听清  
 那仰望的人 心底的孤独和叹息  

@@ -22,12 +22,12 @@ show_intro: true
 * PGP: `72F4 E302 D385 CB24 3186 705F 9EEF A177 0CFB AEF5`  
 * [再会 / はるまきごはんVocal ver.](https://www.youtube.com/watch?v=U0bTlwXLUmM)
 ### Socials
-[Telegram@anyneko](https://t.me/anyneko)  
-[Twitter@anyneko_](https://twitter.com/anyneko_)  
-[GitHub@anyneko](https://github.com/anyneko)  
+* [Telegram@anyneko](https://t.me/anyneko)  
+* [Twitter@anyneko_](https://twitter.com/anyneko_)  
+* [GitHub@anyneko](https://github.com/anyneko)  
 ### Contact
-[ohayo@aneko.moe](mailto:ohayo@aneko.moe)  
-anyneko [at] oneamongus [dot] ca  
+* [ohayo@aneko.moe](mailto:ohayo@aneko.moe)  
+* anyneko [at] oneamongus [dot] ca  
 ### One more thing
 > In case I can't meet you again,  
 > Good morning, good afternoon, and good night.  
