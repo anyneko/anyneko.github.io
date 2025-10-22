@@ -2,6 +2,7 @@
 layout: post.njk
 title: 建站彩蛋（和试验场）
 tags: [Archive]
+description: 我不做搜索引擎优化啦！
 ---
 
 这边写点妳本来不太应该看到的东西？  
