@@ -25,6 +25,7 @@
     "globby": "^15.0.0"
   },
   "dependencies": {
-    "@callmebill/lxgw-wenkai-web": "^1.521.0"
+    "@callmebill/lxgw-wenkai-web": "^1.521.0",
+    "@chinese-fonts/maple-mono-cn": "^2.0.0"
   }
 }
