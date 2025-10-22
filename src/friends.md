@@ -2,14 +2,19 @@
 title: 是朋友们！
 tags: [Special]
 layout: post.njk
-show_intro: true
 ---
 
-### [Ameyama Mio (@anyneko)](https://aneko.moe)
-* 笨
-* 有时候一不小心就熬夜了
-* 似乎被很多人喜欢的样子
-* 精神状态不太健康
+### [Rikkaの小小窝](https://rikka.im/)
+* 早上好哦(つω`*)～☆
+
+### [0x7C00]()
+* 
 
 ### [橄榄菜 (@hatateaya)](https://ganlanc.at)
 * 一只猫！
+
+### [Izumino's Blog](https://blog.izumino.cat)
+* 这里是泉野
+
+### [@pxwwu](https://pxwwu.com)
+* 是螃蟹~~不是杂鱼~~
