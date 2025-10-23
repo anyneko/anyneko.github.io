@@ -23,3 +23,6 @@ layout: post.njk
 
 ### [@pxwwu](https://pxwwu.com)
 * 是螃蟹~~不是杂鱼~~
+
+### [Souiken](https://souiken.moe)
+* 愿我们度过这个漫漫长夜之后, 依旧能看到那旭日东升
