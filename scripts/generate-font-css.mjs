@@ -22,7 +22,6 @@ const fontConfigs = [
     fonts: [
       { dir: "lxgwwenkai-light", weight: 300, style: "normal" },
       { dir: "lxgwwenkai-regular", weight: 400, style: "normal" },
-      { dir: "lxgwwenkai-medium", weight: 500, style: "normal" },
     ],
   },
   {
@@ -37,9 +36,9 @@ const fontConfigs = [
     outputDir: "maple-mono-cn",
     outputCss: "maple-mono-cn.css",
     fonts: [
+      { dir: "MapleMono-CN-Thin", weight: 100, style: "normal" },
+      { dir: "MapleMono-CN-Light", weight: 300, style: "normal" },
       { dir: "MapleMono-CN-Regular", weight: 400, style: "normal" },
-      { dir: "MapleMono-CN-Medium", weight: 500, style: "normal" },
-      { dir: "MapleMono-CN-Bold", weight: 700, style: "normal" },
     ],
   },
 ];
