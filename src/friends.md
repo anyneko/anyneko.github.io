@@ -4,6 +4,9 @@ tags: [Special]
 layout: post.njk
 ---
 
+### [Souiken](https://souiken.moe)
+* 愿我们度过这个漫漫长夜之后, 依旧能看到那旭日东升
+
 ### [Rikkaの小小窝](https://rikka.im/)
 * 早上好哦(つω`*)～☆
 
@@ -23,3 +26,4 @@ layout: post.njk
 
 ### [@pxwwu](https://pxwwu.com)
 * 是螃蟹~~不是杂鱼~~
+
