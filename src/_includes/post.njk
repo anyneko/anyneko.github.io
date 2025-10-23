@@ -3,6 +3,19 @@
 <article>
   <h1>{{ title }}</h1>
   <p class="meta">{{ date | date("yyyy-MM-dd") }}</p>
+  {% set display_tags = tags
+    | reject("equalto", "post")
+    | reject("equalto", "Archive")
+    | reject("equalto", "Special")
+    | list %}
+  {% if display_tags | length %}
+    <p class="meta">标签:
+      {% for tag in display_tags %}
+        <a href="/tags/{{ tag }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    </p>
+  {% endif %}
+  <br>
   {{ content | safe }}
 </article>
 {% endblock %}
