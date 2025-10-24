@@ -205,6 +205,26 @@ hr {
   font-size: 0.9em;
   white-space: nowrap;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem 0 0;
+  font-size: 0.95rem;
+}
+
+.pagination__page-indicator {
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+.pagination__placeholder {
+  visibility: hidden;
+  white-space: nowrap;
+}
+
 article blockquote,
 article pre {
   position: relative;
