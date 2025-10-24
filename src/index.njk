@@ -3,6 +3,7 @@ pagination:
   data: collections.post
   size: 10
   reverse: true
+permalink: "{% if pagination.pageNumber == 0 %}/{% else %}/{{ pagination.pageNumber + 1 }}/{% endif %}"
 layout: base.njk
 title: 首页
 show_intro: true
@@ -35,11 +36,18 @@ description: 大猫猫很笨很笨的说...（小声）
   {% endfor %}
 </section>
 
-<nav class="pagination">
+<nav class="pagination" aria-label="分页导航">
   {% if pagination.href.previous %}
-    <a href="{{ pagination.href.previous }}">上一页</a>
+    <a class="pagination__link pagination__link--prev" href="{{ pagination.href.previous }}" rel="prev">上一页</a>
+  {% else %}
+    <span class="pagination__placeholder" aria-hidden="true">上一页</span>
   {% endif %}
+
+  <span class="pagination__page-indicator">&lt;{{ pagination.pageNumber + 1 }}&gt;</span>
+
   {% if pagination.href.next %}
-    <a href="{{ pagination.href.next }}">下一页</a>
+    <a class="pagination__link pagination__link--next" href="{{ pagination.href.next }}" rel="next">下一页</a>
+  {% else %}
+    <span class="pagination__placeholder" aria-hidden="true">下一页</span>
   {% endif %}
 </nav>
