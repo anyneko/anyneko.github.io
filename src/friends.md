@@ -35,6 +35,6 @@ layout: post.njk
 ### 如果您想在您的网站上添加我的友链：
 ```
 ### [/mnt/anyneko](https://aneko.moe)
-* 我很困，但却不想睡，我很想妳，但却没找妳。
+* 待到重逢之时，我们一定要无话不谈
 ```
 如您所见，本站没有托管任何非文字视觉元素，如果您需要引用头像，请引用[我的 Github 头像](https://avatars.githubusercontent.com/u/50656066)。
