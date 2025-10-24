@@ -4,6 +4,9 @@ tags: [Special]
 layout: post.njk
 ---
 
+> 我很困，但却不想睡，  
+> 我很想妳，但却没找妳。  
+
 ### [Souiken](https://souiken.moe)
 * 愿我们度过这个漫漫长夜之后, 依旧能看到那旭日东升
 
@@ -27,3 +30,11 @@ layout: post.njk
 ### [@pxwwu](https://pxwwu.com)
 * 是螃蟹~~不是杂鱼~~
 
+---
+
+### 如果您想在您的网站上添加我的友链：
+```
+### [/mnt/anyneko](https://aneko.moe)
+* 我很困，但却不想睡，我很想妳，但却没找妳。
+```
+如您所见，本站没有托管任何非文字视觉元素，如果您需要引用头像，请引用[我的 Github 头像](https://avatars.githubusercontent.com/u/50656066)。

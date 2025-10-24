@@ -1,16 +1,18 @@
 ---
 layout: post.njk
-title: 实验场（和建站彩蛋）
+title: 实验场和建站彩蛋
 tags: [Special]
 description: 我不做搜索引擎优化啦！
 ---
 
 这边写点妳本来不太应该看到的东西？  
 
+**首先最重要的是，在本网站的世界观中，存储设备`/mnt/anyneko`被挂载到了`/home`处（**
+
 > ~~经过了一些带有严格限制的色彩挑选，浅色模式下的链接颜色取于 Gender Fluidity Flag 的深蓝色。~~  
 > ~~而深色模式下的链接颜色取于 Bigender Flag 的亮粉色。~~  
 > ~~没办法，要在带对比度要求的情况下选颜色实在太难了（~~  
-> 根据 Lighthouse 的无障碍见解，我决定维持配色不变，转为画一些下划线指出链接...
+> 根据 [Lighthouse 的无障碍见解](https://dequeuniversity.com/rules/axe/4.11/link-in-text-block)，我决定维持配色不变，转为画一些下划线指出链接...
 
 ```
 metadata: {
@@ -24,6 +26,8 @@ metadata: {
       },
     },
 ```
+如您所见，本站确实提供 RSS 订阅，地址为 `/feed.xml`，欢迎使用。  
+感谢 [Github@Misaka13514](https://github.com/Misaka13514) 提供的帮助。
 
 ---
 
