@@ -5,9 +5,15 @@ tags: [Special]
 description: 我不做搜索引擎优化啦！
 ---
 
-这边写点妳本来不太应该看到的东西？  
-
 **首先最重要的是，在本网站的世界观中，存储设备`/mnt/anyneko`被挂载到了`/home`处（**
+
+欢迎来到实验场，在这里妳能看到：  
+* 胡乱堆砌的格式
+* 两个字重基准完全不同的字体同台
+* 真的会请求边缘资源的半动态内容
+
+<td>506.47</td> <td>510.45</td>
+<td>506.47</td> <td>510.45</td>
 
 > ~~经过了一些带有严格限制的色彩挑选，浅色模式下的链接颜色取于 Gender Fluidity Flag 的深蓝色。~~  
 > ~~而深色模式下的链接颜色取于 Bigender Flag 的亮粉色。~~  
@@ -34,6 +40,8 @@ metadata: {
 > ```
 > Remember? Remember...?
 > ```
+[Particle Arts](https://music.163.com/song?id=523251142)
+
 
 ```
 c479a2
