@@ -1,4 +1,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItLinkAttributes from "markdown-it-link-attributes";
 import { execSync } from "node:child_process";
 
 const buildTime = new Date().toISOString();
@@ -13,6 +15,20 @@ try {
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles.css");
   eleventyConfig.addPassthroughCopy("src/assets");
+  
+  // Markdown: add attrs support and set external links to open in new tab
+  eleventyConfig.amendLibrary("md", (md) => {
+    md.use(markdownItAttrs);
+    md.use(markdownItLinkAttributes, {
+      matcher(href) {
+        return /^https?:\/\//i.test(href);
+      },
+      attrs: {
+        target: "_blank",
+        rel: "noopener noreferrer",
+      },
+    });
+  });
 
   eleventyConfig.addFilter("date", (value, format = "yyyy-MM-dd") => {
     if (!value) return "";
