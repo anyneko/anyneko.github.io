@@ -24,7 +24,9 @@
     "gh-pages": "^6.0.0",
     "globby": "^15.0.0",
     "markdown-it-attrs": "^4.3.1",
-    "markdown-it-link-attributes": "^4.0.1"
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "markdown-it-mathjax3": "^5.2.0"
   },
   "dependencies": {
     "@callmebill/lxgw-wenkai-web": "^1.521.0",

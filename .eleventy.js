@@ -1,6 +1,8 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import markdownItAttrs from "markdown-it-attrs";
+import markdownItFootnote from "markdown-it-footnote";
 import markdownItLinkAttributes from "markdown-it-link-attributes";
+import markdownItMathjax3 from "markdown-it-mathjax3";
 import { execSync } from "node:child_process";
 
 const buildTime = new Date().toISOString();
@@ -16,9 +18,22 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles.css");
   eleventyConfig.addPassthroughCopy("src/assets");
   
-  // Markdown: add attrs support and set external links to open in new tab
+  // Markdown: attrs, footnotes, MathJax, and external link treatment
   eleventyConfig.amendLibrary("md", (md) => {
     md.use(markdownItAttrs);
+    md.use(markdownItFootnote);
+    md.use(markdownItMathjax3, {
+      tex: {
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+        displayMath: [
+          ["$$", "$$"],
+          ["\\[", "\\]"],
+        ],
+      },
+    });
     md.use(markdownItLinkAttributes, {
       matcher(href) {
         return /^https?:\/\//i.test(href);
@@ -90,8 +105,8 @@ export default function (eleventyConfig) {
     },
     metadata: {
       language: "zh",
-      title: "Ameyama Mio's Blog?",
-      subtitle: "死掉了就太可惜啦。陪妳多走一程，好不好？",
+      title: "/mnt/anyneko/Mio/Documents",
+      subtitle: "We shall meet in the place where there is no darkness.",
       base: "https://aneko.moe/",
       author: {
         name: "anyneko",
