@@ -102,15 +102,6 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("/assets/fonts/lxgw/lxgwwenkai-light-63.woff2") format("woff2");
-  unicode-range: U+2713,U+2717,U+271a,U+273d,U+273f-2740,U+2756,U+275b-2760,U+2772-2773,U+2776-2793,U+27a1,U+27e8-27eb,U+2934-2935,U+29bf,U+29c8-29c9,U+29fa-29fb,U+2a7d-2a7e,U+2acb-2acc,U+2afd,U+2b05-2b07,U+2b1a,U+2b25-2b26,U+2b29,U+2b58,U+2b60-2b65,U+2b82-2b83,U+2b95,U+2b97,U+2bba,U+2c64-2c66,U+2e2e,U+2e3b,U+2e40,U+2e55-2e56,U+2e80-2e99,U+2e9b-2ef3,U+2f00-2f9b,U+1b132,U+1b155,U+1d300-1d356,U+1d360-1d376;
-}
-
-@font-face {
-  font-family: "LXGW WenKai";
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-light-53.woff2") format("woff2");
   unicode-range: U+3041-3096,U+3099-30ff,U+3300-332b,U+332d-3357;
 }
@@ -563,15 +554,6 @@
   font-display: swap;
   src: url("/assets/fonts/lxgw/lxgwwenkai-regular-59.woff2") format("woff2");
   unicode-range: U+2fba-2fd5,U+2ff0-3000,U+3003,U+3005-3007,U+3012-3013,U+3018-302d,U+3030,U+3033-303f,U+3105-312f,U+3131-318e,U+3190-31d1,U+1f100-1f1ad,U+1f200-1f202,U+1f210-1f22e;
-}
-
-@font-face {
-  font-family: "LXGW WenKai";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/assets/fonts/lxgw/lxgwwenkai-regular-58.woff2") format("woff2");
-  unicode-range: U+2713,U+2717,U+271a,U+273d,U+273f-2740,U+2756,U+275b-2760,U+2772-2773,U+2776-2793,U+27a1,U+27e8-27eb,U+2934-2935,U+29bf,U+29c8-29c9,U+29fa-29fb,U+2a7d-2a7e,U+2acb-2acc,U+2afd,U+2b05-2b07,U+2b1a,U+2b25-2b26,U+2b29,U+2b58,U+2b60-2b65,U+2b82-2b83,U+2b95,U+2b97,U+2bba,U+2c64-2c66,U+2e2e,U+2e3b,U+2e40,U+2e55-2e56,U+2e80-2e99,U+2e9b-2ef3,U+2f00-2fb9,U+1b132,U+1b155,U+1d300-1d356,U+1d360-1d376;
 }
 
 @font-face {
