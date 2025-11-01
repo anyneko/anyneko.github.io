@@ -10,7 +10,7 @@ layout: post.njk
 ### [Souiken](https://souiken.moe)
 * 愿我们度过这个漫漫长夜之后, 依旧能看到那旭日东升
 
-### [Rikkaの小小窝](https://rikka.im/)
+### [Rikkaの小小窝](https://rikka.im)
 * 早上好哦(つω`*)～☆
 
 ### [0x7C00](https://aki.cat)
@@ -21,17 +21,20 @@ layout: post.njk
 * 青く滲む 青く滲む 綺麗に
 * 浅渗湛蓝 纵使青涩 难掩绮丽
 
+### [mnt/misncandy](https://misncandy.moe)
+* 我们终将在没有黑暗的地方相遇
+
 ### [Renna](https://renna.dev)
 * a.k.a. 泉野咲？
 
-### [落叶下的记事本](https://lemonkoi.one/)
+### [落叶下的记事本](https://lemonkoi.one)
 * puuuuing~~
 * by @MoeMagicMango
 
 ### [aisuneko/blog](https://aisuneko.moe)
 * "flow just like liquid ice"
 
-### [U.M.R Powered Blog](https://umrpowered.codeberg.page/)
+### [U.M.R Powered Blog](https://umrpowered.codeberg.page)
 * 因「U.M.R Powered」希望被搜索引擎顺利检索而搭建起来的简单博客。
 
 ### [橄榄菜](https://ganlanc.at)
