@@ -21,11 +21,14 @@ layout: post.njk
 * 青く滲む 青く滲む 綺麗に
 * 浅渗湛蓝 纵使青涩 难掩绮丽
 
-### [mnt/misncandy](https://misncandy.moe)
-* 我们终将在没有黑暗的地方相遇
-
 ### [Renna](https://renna.dev)
 * a.k.a. 泉野咲？
+
+### [mnt/misncandy](https://misncandy.moe)
+* by 棉花糖/有川夕見
+* 我们终将在没有黑暗的地方相遇
+
+---
 
 ### [落叶下的记事本](https://lemonkoi.one)
 * puuuuing~~

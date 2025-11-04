@@ -1,5 +1,6 @@
 ﻿<section class="intro">
   <h1>/mnt/anyneko</h1>
+  {% set introQuotes = quotes.introQuotes | default([]) %}
   {% set firstEntry = introQuotes | first %}
   {% if firstEntry and firstEntry.text %}
     {% set defaultIntro = firstEntry.text %}
