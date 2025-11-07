@@ -11,6 +11,7 @@
   --divider: rgba(0, 0, 0, 0.1);
   --divider-strong: rgba(0, 0, 0, 0.08);
   --blockquote-border: rgba(0, 0, 0, 0.18);
+  text-autospace: ideograph-alpha ideograph-numeric;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +28,7 @@
     --divider: rgba(255, 255, 255, 0.14);
     --divider-strong: rgba(255, 255, 255, 0.18);
     --blockquote-border: rgba(255, 255, 255, 0.22);
+    text-autospace: ideograph-alpha ideograph-numeric;
   }
 }
 
@@ -69,7 +71,6 @@ body {
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
-  text-autospace: ideograph-alpha ideograph-numeric;
 }
 
 a {
