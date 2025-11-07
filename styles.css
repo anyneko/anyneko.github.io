@@ -69,6 +69,7 @@ body {
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  text-autospace: ideograph-alpha ideograph-numeric;
 }
 
 a {
@@ -262,6 +263,7 @@ article pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-word;
+  text-autospace: no-autospace;
 }
 
 article pre code {
@@ -275,4 +277,5 @@ article code {
   font-size: 0.95em;
   font-weight: 100;
   font-synthesis: none;
+  text-autospace: no-autospace;
 }
