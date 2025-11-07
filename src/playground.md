@@ -17,7 +17,7 @@ description: 我不做搜索引擎优化啦！
 
 
 下面这个数字真的是实时请求的人民币对加拿大元招商银行中间价
-感谢某人的原仓库把 GPT 喂饱了（
+感谢某人的原仓库把 GPT 喂饱了（  
 我要失业了。多么的悲惨。还是做硬件有前途。
 参考：[Ameyama Aki's fxrate bot](https://github.com/AmeyamaAki/aki.telegram.bot.fxrate/tree/main)
 <div id="result" data-url="https://fxrate-worker.aneko.workers.dev/?currency=cad&bank=cmb" data-path="raw.bankRate">
@@ -62,6 +62,21 @@ metadata: {
 ```
 如您所见，本站确实提供 RSS 订阅，地址为 `/feed.xml`，欢迎使用。  
 感谢 [Github@Misaka13514](https://github.com/Misaka13514) 提供的 RSS 方面的帮助。
+
+---
+
+Pangu 测试（不是）-xa
+最近我在研究一个很有趣的topic——**retro computing**。  
+老电脑那种带着金属味的机械键盘声，还有**CRT**屏幕轻微的闪烁，都让人感觉很有温度。  
+每次看到启动画面上那一行行**BIOS**信息，就像是在和过去的时代对话。  
+
+现在的设备虽然更高效、也更安静，但我总觉得少了点灵魂。  
+所以我最近在尝试修复一台旧ThinkPad，打算装上Linux，再配上KDE桌面环境。  
+那种淡蓝色的界面配合fcitx5输入法框，真的特别有早期二十一世纪的感觉。  
+
+等整个系统稳定后，我还想把它接入**Home Assistant**，  
+让开机时台灯能自动点亮，屏幕亮度也随环境变化调整。  
+听起来有点极客味，但其实也挺温柔的，不是吗？
 
 ---
 
