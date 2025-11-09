@@ -16,10 +16,10 @@ description: 我不做搜索引擎优化啦！
 <td>506.47</td> <td>510.45</td>
 
 <main>
-  <figure class="root">
+  <figure class="normal">
     <figcaption>
       <code>
-        text-autospace: <span id="autospace-value">root</span>;
+        text-autospace: <span id="autospace-value">normal</span>;
       </code>
     </figcaption>
     <div>
