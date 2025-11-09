@@ -15,20 +15,6 @@ description: 我不做搜索引擎优化啦！
 <td>506.47</td> <td>510.45</td>
 <td>506.47</td> <td>510.45</td>
 
-<main>
-  <figure class="normal">
-    <figcaption>
-      <code>
-        text-autospace: <span id="autospace-value">normal</span>;
-      </code>
-    </figcaption>
-    <div>
-      <p>HTML超文本标记语言</p>
-      <p>42四十二</p>
-    </div>
-  </figure>
-</main>
-
 下面这个数字真的是实时请求的人民币对加拿大元招商银行中间价
 感谢某人的原仓库把 GPT 喂饱了（  
 我要失业了。多么的悲惨。还是做硬件有前途。
