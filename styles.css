@@ -283,19 +283,3 @@ article code {
   font-synthesis: none;
   text-autospace: no-autospace;
 }
-
-.no-autospace {
-  text-autospace: no-autospace;
-}
-.auto {
-  text-autospace: auto;
-}
-.normal {
-  text-autospace: normal;
-}
-.ideograph-alpha {
-  text-autospace: ideograph-alpha;
-}
-.ideograph-numeric {
-  text-autospace: ideograph-numeric;
-}
