@@ -1,5 +1,6 @@
 :root {
   color-scheme: light;
+  text-autospace: normal;
   --bg: #faf8f5;
   --text: #1C1C1C;
   --heading: #0F0F0F;
@@ -11,12 +12,12 @@
   --divider: rgba(0, 0, 0, 0.1);
   --divider-strong: rgba(0, 0, 0, 0.08);
   --blockquote-border: rgba(0, 0, 0, 0.18);
-  text-autospace: normal;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
+    text-autospace: normal;
     --bg: #121212;
     --text: #e8e1d4;
     --heading: #f8f6ef;
@@ -28,7 +29,6 @@
     --divider: rgba(255, 255, 255, 0.14);
     --divider-strong: rgba(255, 255, 255, 0.18);
     --blockquote-border: rgba(255, 255, 255, 0.22);
-    text-autospace: normal;
   }
 }
 
