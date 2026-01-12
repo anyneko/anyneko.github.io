@@ -18,6 +18,13 @@
   <script>
     (function () {
       var entries = {{ introQuotes | dump | safe }};
+      var reimagined = {{ quotes.ReImaginedQuotes | dump | safe }} || [];
+      
+      // 如果页面标记了要使用多个来源，就合并数组
+      {% if useMultipleQuotes %}
+      entries = entries.concat(reimagined);
+      {% endif %}
+      
       if (!Array.isArray(entries) || entries.length === 0) return;
 
       var target = document.getElementById("intro-tagline");
