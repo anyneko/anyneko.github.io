@@ -30,6 +30,15 @@ layout: post.njk
 
 ---
 
+### [一封樱花信](https://skr.travel.blog)
+* 生活 · 写作 · 新知
+* 备注：请不要幻视成三联书店（
+
+### [一叶知秋](https://blog.rain.cx)
+* 二分之一少女，乘着比特流环游世界
+
+---
+
 ### [落叶下的记事本](https://lemonkoi.one)
 * puuuuing~~
 * by @MoeMagicMango
@@ -39,9 +48,6 @@ layout: post.njk
 
 ### [U.M.R Powered Blog](https://umrpowered.codeberg.page)
 * 因「U.M.R Powered」希望被搜索引擎顺利检索而搭建起来的简单博客。
-
-### [一叶知秋](blog.rain.cx)
-* 二分之一少女，乘着比特流环游世界
 
 ### [橄榄菜](https://ganlanc.at)
 * 一只猫！
