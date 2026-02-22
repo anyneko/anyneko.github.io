@@ -15,7 +15,7 @@ show_intro: true
 * 19 years old, finished high school last year.  
 * I’ve learned some C++ and Python—forgot part of them, but I’ll pick them up again soon.  
 * Chinese (Mandarin) and English.  
-* ~~I use Debian and AOSC OS with KDE Plasma,~~ but not NixOS... yet. btw I use Arch.  
+* ~~I use Debian and AOSC OS with KDE Plasma,~~ but not NixOS... yet. btw I use Arch ~~(because I hate myself)~~.  
 * Living with bipolar disorder and ASD; thank you for your patience if I act a little off sometimes.  
 * Ingress Enlightened Agent & Arcade game player (Maimai DX / Chunithm / Wangan MMT).  
 * Amateur radio callsign: `BH5UWA`  
