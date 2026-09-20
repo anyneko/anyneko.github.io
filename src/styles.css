@@ -283,3 +283,16 @@ article code {
   font-synthesis: none;
   text-autospace: no-autospace;
 }
+
+/* Bilingual Translation Style */
+.en-translation {
+  display: block;
+  font-size: 0.9em;
+  color: var(--muted-strong);
+  margin-top: 0.2em;
+  font-style: italic;
+}
+
+ul li {
+  margin-bottom: 0.6em;
+}
